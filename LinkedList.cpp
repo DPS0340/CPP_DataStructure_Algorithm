@@ -47,7 +47,7 @@ int main() {
     linked* last = first;
     for(int i=1;i<k;i++) {
     	last = push(last, i);
-	}
+    }
     // 연결 끊기
     deleteE(first->next);
     cout << first->next->n << endl;
